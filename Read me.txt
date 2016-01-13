@@ -8,4 +8,4 @@ of enhancing its infrastructure relies on us. This project is in response of the
 the software for bus management system for IIITG.
 
 
-Requirements :
+System Requirements :
