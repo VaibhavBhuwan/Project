@@ -1,0 +1,7 @@
+***************************************IIITG Bus Management Sysytem****************************************
+
+Introduction:
+
+Indian Institute of Information Technology is one of the 20 technical Institutes being set up in PPP(public
+private partnership) mode. Since it is newly emerging Institute, and we are the founder batch so the responsibility
+of enhancing its infrastructure relies on us. This project is in response of the same.
