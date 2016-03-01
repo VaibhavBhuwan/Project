@@ -1,0 +1,10 @@
+take input as ticket_no and seat_no
+check if booking of given ticket was made by same user
+if booking of given ticket was made by same user
+	if time difference between depart time of bus and current time is greater than 2 hours
+		cancel the ticket
+		prompt cancel successfull message
+	else if time difference is less than 2 hours
+		prompt message that ticket cant be cancelled as time for cancellation is passed.
+if booking of given ticket was not made by same user
+	display message that the ticket cant be cancelled as booking was not made by same user.

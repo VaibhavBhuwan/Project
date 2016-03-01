@@ -7,7 +7,7 @@ if buses available
 		if seat available
 			ask for credit card no
 			insert records in database
-			display booking successfull messsage and ticket no.
+			display booking successfull messsage and ticket no and seat no.
 		if seat not availbale
 			prompt for check seat availability in any other available bus
 	if time diff is less than 2 hour
