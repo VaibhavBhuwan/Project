@@ -1,0 +1,9 @@
+take input as souce, destination, and date from user
+search the database for the bus on that date for provided source and destination
+if bus exists
+	list all the buses along with fair charge, sleeper type, ac type,distance 
+	on selection of any bus
+		check for seat availability
+else
+	display message that bus is not available
+	prompt for re-entry
