@@ -2,8 +2,9 @@
 <%@ page import="java.lang.*"%>
 <html>
 <body background="53.jpg">
-<marquee><h2 style="color:green">WELCOME TO IIITG Bus Reservation System</marquee></h2>
+<marquee><h2 style="color:green">Welcome To IIITG Bus Reservation System</marquee></h2>
 <%
+
 String a= request.getParameter("t1");
 String b= request.getParameter("t2");
 if((a == "")||(b == ""))
@@ -33,6 +34,7 @@ else
 					 flag = 1;
 					 out.println("hi  " +user_id+ " logged in successfully");
 					 application.setAttribute("id",user_id);
+					 application.setAttribute("Flag","True");
 					 String site = new String("Booking.jsp");
 					 response.setStatus(response.SC_MOVED_TEMPORARILY);
 					 response.setHeader("Location", site); 
